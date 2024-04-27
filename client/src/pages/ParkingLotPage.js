@@ -34,7 +34,7 @@ const containerStyle = {
 
     return (
         <Container style={{ display: 'flex', height: '100vh', maxWidth: '100%', padding: 0 }}>
-            <LoadScript googleMapsApiKey="AIzaSyByC6Q69vElHHEfbl3y8-5gdrXgNyFi1LQ">
+            <LoadScript googleMapsApiKey="key">
                 <GoogleMap
                     mapContainerStyle={containerStyle}
                     center={mapCenter}
